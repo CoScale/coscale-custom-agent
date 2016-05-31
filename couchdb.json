@@ -1,0 +1,14 @@
+#
+# CouchDB Configuration
+#
+{
+    "Configuration": {
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "5984"
+        ]
+    },
+    "PluginType": "COUCHDB"
+},

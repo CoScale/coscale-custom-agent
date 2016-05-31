@@ -1,0 +1,11 @@
+#
+# Riak Configuration
+#
+{
+    "Configuration": {
+        "SOCKET FILE":[
+            "/var/run/csplugin-unixsock"
+        ]
+    },
+    "PluginType": "RIAK"
+},

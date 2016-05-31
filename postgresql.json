@@ -1,0 +1,50 @@
+#
+# Postgressql Configuration
+#
+{
+    "Configuration": {
+        #
+        # 1. Performance monitoring of database queries
+        # Uncomment one of the following:
+
+        # Slow log
+        # "QUERY STATS":["true"],
+        # "FILE":["\"/var/lib/postgresql/9.1/main/pg_log/postgresql-%a.log\""],
+        # "LOG STATEMENT":["all"],
+        # "LOG DURATION":["-1"],
+        # "LOG FORMAT":["\"%m %u@%d %p %r %e \""]
+
+        # Query data disabled
+        "QUERY STATS":["false"],
+
+
+        #
+        # 2. Monitoring of global metrics
+        # Uncomment one of the following:
+
+        # Enabled:
+        # "GLOBAL STATS":["true"],
+
+        # Disabled:
+        # "GLOBAL STATS":["false"],
+
+        #
+        # 3. Required configuration
+        "USERNAME":[
+            "username"
+        ],
+        "PASSWORD":[
+            "password"
+        ],
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "5432"
+        ],
+        "DEFAULT DATABASE":[
+            "database"
+        ],
+    },
+    "PluginType": "POSTGRESQL"
+},

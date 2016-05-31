@@ -1,0 +1,20 @@
+#
+# MongoDB Configuration
+#
+{
+    "Configuration": {
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "27017"
+        ],
+        "USERNAME":[
+            "guest"
+        ],
+        "PASSWORD":[
+            "password"
+        ]
+    },
+    "PluginType": "MONGODB"
+},

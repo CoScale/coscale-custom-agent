@@ -1,0 +1,14 @@
+#
+# Cassandra Configuration
+#
+{
+    "Configuration": {
+        "JMX HOSTNAME":[
+            "localhost"
+        ],
+        "JMX PORT":[
+            "7199"
+        ]
+    },
+    "PluginType": "CASSANDRA"
+},

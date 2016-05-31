@@ -1,0 +1,11 @@
+#
+# Cron monitoring Configuration
+#
+{
+    "Configuration": {
+        "FILE":[
+            "/var/log/cron.log"
+        ]
+    },
+    "PluginType": "CRON"
+},

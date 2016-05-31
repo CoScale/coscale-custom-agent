@@ -1,0 +1,14 @@
+#
+# Sentry Configuration
+#
+{
+    "Configuration": {
+        "STATS URL":[
+            "http://localhost"
+        ],
+        "API KEY":[
+            "YXBpX2tleQ=="
+        ]
+    },
+    "PluginType": "SENTRYPLUGIN"
+},

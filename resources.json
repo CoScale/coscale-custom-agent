@@ -1,0 +1,11 @@
+#
+# Resources Configuration
+#
+{
+    "Configuration": {
+        #
+        # To filter out virtual interfaces uncomment following:
+        #"NETWORK GLOBAL ONLY": ["true"]
+    },
+    "PluginType": "RESOURCES"
+},

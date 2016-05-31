@@ -1,0 +1,24 @@
+#
+# Redis Configuration
+#
+{
+    "Configuration":
+    {
+        "TYPE":[
+            "SLOWLOG"
+        ],
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "6379"
+        ],
+        "USERNAME":[
+            "guest"
+        ],
+        "PASSWORD":[
+            "password"
+        ]
+    },
+    "PluginType": "REDIS"
+},

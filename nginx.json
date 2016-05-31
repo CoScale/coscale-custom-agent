@@ -1,0 +1,17 @@
+#
+# Nginx Configuration
+#
+{
+    "Configuration": {
+        "FILE":[
+            # Multiple log files supported
+            "\"/var/log/nginx/access.log\" \"$server_name \"$request\" $request_time $status $request_length $bytes_sent\""
+            # "\"/var/log/nginx/other-access.log\" \"$server_name \"$request\" $request_time $status $request_length $bytes_sent\""
+            # ...
+        ],
+        "STATS URL":[
+            "http://localhost/nginx_status"
+        ]
+    },
+    "PluginType": "NGINX"
+},

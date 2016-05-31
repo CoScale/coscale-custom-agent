@@ -1,0 +1,14 @@
+#
+# Generic script Configuration
+#
+{
+    "Configuration": {
+        "SCRIPT":[
+            # Multiple scripts supported
+            "generic-script.sh",
+            # another-script.sh,
+            # ...
+        ]
+    },
+    "PluginType": "GENERICSCRIPT"
+},

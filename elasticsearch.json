@@ -1,0 +1,14 @@
+#
+# Elasticsearch Configuration
+#
+{
+    "Configuration": {
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "9200"
+        ]
+    },
+    "PluginType": "ELASTICSEARCH"
+},

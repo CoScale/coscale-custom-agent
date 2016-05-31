@@ -1,0 +1,33 @@
+#
+# JBoss Configuration
+#
+{
+    "Configuration": {
+        "FILE":[
+            # Multiple log files supported
+            "\"/usr/share/jboss/standalone/log/access_log.YYYY-MM-DD\" \"%v %B %D \"%r\" %A %a %t %H %p %U %s %S %T\"",
+            # "\"/usr/share/jboss/standalone/log/access_other_log.YYYY-MM-DD\" \"%v %B %D \"%r\" %A %a %t %H %p %U %s %S %T\"",
+            # ...
+        ],
+
+        #
+        # Monitoring of global metrics
+
+        # Uncomment for default monitoring of JBoss
+        # "JMX HOSTNAME":[
+        #     "localhost"
+        # ],
+        # "JMX PORT":[
+        #     "9999"
+        # ],
+
+        # Uncomment for CoScale configuration of monitoring JBoss
+        # "USERNAME":[
+        #     "jboss"
+        # ],
+        # "PASSWORD":[
+        #     "password"
+        # ]
+    },
+    "PluginType": "JBOSS"
+},

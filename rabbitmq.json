@@ -1,0 +1,20 @@
+#
+# MariaDB Configuration
+#
+{
+    "Configuration": {
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "15672"
+        ],
+        "USERNAME":[
+            "username"
+        ],
+        "PASSWORD":[
+            "password"
+        ]
+    },
+    "PluginType": "RABBITMQ"
+},

@@ -1,0 +1,39 @@
+#
+# Oracle Configuration
+#
+{
+    "Configuration": {
+        #
+        # 1. Performance monitoring of database queries
+        # Uncomment one of the following:
+
+        # Query data enabled
+        # "QUERY STATS":["true"],
+
+        # Query data disabled
+        # "QUERY STATS":["false"],
+
+
+        #
+        # 2. Required configuration
+        "USERNAME":[
+            "username"
+        ],
+        "PASSWORD":[
+            "password"
+        ],
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "1521"
+        ],
+        "DEFAULT DATABASE":[
+            "database"
+        ],
+        "ORACLE HOME":[
+            "\"/oracle/base/product/12.1.0/dbhome_2\""
+        ]
+    },
+    "PluginType": "ORACLE"
+},

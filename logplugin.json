@@ -1,0 +1,11 @@
+#
+# Log plugin Configuration
+#
+{
+    "Configuration": {
+        "MATCH":[
+            "\"logfile.log\" \"COUNTER\" \"errors\" \".*[error].*\" \"\""
+        ]
+    },
+    "PluginType": "LOGPLUGIN"
+},

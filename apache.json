@@ -1,0 +1,17 @@
+#
+# Apache Configuration
+#
+{
+    "Configuration": {
+        "FILE":[
+            # Multiple log files supported
+            "\"/var/log/apache2/access.log\" \"%V \"%r\" %D %s %I %O\"",
+            # "\"/var/log/apache2/other-access.log\" \"%V \"%r\" %D %s %I %O\"",
+            # ...
+        ],
+        "STATS URL":[
+            "http://localhost/server-status"
+        ]
+    },
+    "PluginType": "APACHE"
+},

@@ -1,0 +1,14 @@
+#
+# Memcached Configuration
+#
+{
+    "Configuration": {
+        "HOSTNAME":[
+            "localhost"
+        ],
+        "PORT":[
+            "11211"
+        ]
+    },
+    "PluginType": "MEMCACHED"
+},

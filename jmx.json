@@ -1,0 +1,20 @@
+#
+# JMX Configuration
+#
+{
+    "Configuration": {
+        "BEANS":[
+            # Multiple beans supported
+            "\"java.lang:type=OperatingSystem\" \"ProcessCpuLoad\""
+            # "\"java.lang:type=OperatingSystem\" \"TotalPhysicalMemorySize\""
+            # ...
+        ],
+        "JMX HOSTNAME":[
+            "localhost"
+        ],
+        "JMX PORT":[
+            "6789"
+        ]
+    },
+    "PluginType": "JMX"
+},

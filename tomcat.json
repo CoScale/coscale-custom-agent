@@ -1,0 +1,14 @@
+#
+# Tomcat Configuration
+#
+{
+    "Configuration":{
+        "FILE":[
+            "\"/var/log/tomcat7/localhost_access_log.yyyy-MM-dd.HH.txt\" \"%h %v %D %T %B %l %u %t \\\"%r\\\" %s %b"
+        ],
+        "STATS URL":[
+            "http://tomcat:tomcat@localhost:8080/manager/jmxproxy/"
+        ]
+    },
+    "PluginType":"TOMCAT"
+},

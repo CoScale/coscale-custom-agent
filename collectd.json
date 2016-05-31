@@ -1,0 +1,11 @@
+#
+# CollectD Configuration
+#
+{
+    "Configuration": {
+        "SOCKET FILE":[
+            "/var/run/csplugin-unixsock"
+        ]
+    },
+    "PluginType": "COLLECTD"
+}
